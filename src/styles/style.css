@@ -1,0 +1,14 @@
+@import url(./global.css);
+
+#product-list{
+    border: solid black 3px;
+}
+
+.c {
+    border: solid black 3px;
+    height: 180px;
+}
+
+img{
+    width: 20%;
+}

@@ -1,0 +1,12 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+:root {
+    --cor-primaria: #E2B7F0;
+    --cor-secundaria: #DCC8F7;
+    --cor-terciaria: #F2A2B7;
+}
