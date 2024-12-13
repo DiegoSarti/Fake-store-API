@@ -3,12 +3,40 @@
 #product-list{
     border: solid black 3px;
 }
+body{
+    background-color: var(--cor-secundaria);
+}
+header{
+    background-color: var(--cor-primaria);
+}
+main{
 
+}
 .c {
     border: solid black 3px;
-    height: 180px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
 }
 
 img{
-    width: 20%;
+    width: 10%;
+    border-radius: 20px;
+}
+.placeholder{
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 25%;
+    width: 30%;
+}
+.lista_de_produtos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product{
+    width: 50%;
 }
